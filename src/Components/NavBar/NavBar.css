@@ -1,0 +1,53 @@
+.sinsubrayado{ 
+    text-decoration: none;
+  }
+  .NavBar{
+    display: flex;
+    flex-flow:column;
+    justify-content: space-between;
+    
+  }
+  h1 { text-align: justify;}
+  nav ul{
+    list-style-type: none;
+    font-size: 0;
+    padding: 0;
+  }
+    
+  nav li{
+    color: black; 
+    display: inline-block;
+    width: 25% ; 
+    position: relative;
+  }
+    
+  nav a {
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    color: black;
+    background-color: rgb(233, 203, 230);
+    padding: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+  nav a:hover {
+    background-color: rgb(206, 43, 192);
+  }
+      
+  nav ul ul { 
+    width: 100%;
+    position: absolute;
+    display: none
+  }
+  nav ul ul li { 
+    width: 100%;
+  }
+      
+  nav ul li:hover ul {
+    display:block;
+  }
+  nav ul li:hover ul a:hover { 
+    background-color: rgb(206, 43, 192)
+  }
